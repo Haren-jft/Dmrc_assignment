@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: aqua;
+        margin: auto;
+        width: 60%;
+        border: 3px solid black;
+        padding: 10px;
+      }
+      .center_text{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="center_text">Delhi Metro Rail Corporation</h1>
+        <label for="start_from">Starting from station:</label>
+        <select name="stations" id="start_from">
+          <option disabled hidden selected>Select</option>
+          <option value="1">A</option>
+          <option value="2">B</option>
+          <option value="3">C</option>
+          <option value="4">D</option>
+          <option value="5">E</option>
+          <option value="6">F</option>
+          <option value="7">G</option>
+          <option value="8">H</option>
+          <option value="9">I</option>
+          <option value="10">J</option>
+          <option value="11">K</option>
+          <option value="12">L</option>
+          <option value="13">M</option>
+          <option value="14">N</option>
+          <option value="15">O</option>
+          <option value="16">P</option>
+          <option value="17">Q</option>
+          <option value="18">R</option>
+          <option value="19">S</option>
+          <option value="20">T</option>
+          <option value="21">U</option>
+          <option value="22">V</option>
+          <option value="23">W</option>
+          <option value="24">X</option>
+          <option value="25">Y</option>
+          <option value="26">Z</option>
+        </select><br><br>
+        <label for="end_to">Ending to station:</label>
+        <select name="stations" id="end_to">
+          <option disabled hidden selected>Select</option>
+          <option value="1">A</option>
+          <option value="2">B</option>
+          <option value="3">C</option>
+          <option value="4">D</option>
+          <option value="5">E</option>
+          <option value="6">F</option>
+          <option value="7">G</option>
+          <option value="8">H</option>
+          <option value="9">I</option>
+          <option value="10">J</option>
+          <option value="11">K</option>
+          <option value="12">L</option>
+          <option value="13">M</option>
+          <option value="14">N</option>
+          <option value="15">O</option>
+          <option value="16">P</option>
+          <option value="17">Q</option>
+          <option value="18">R</option>
+          <option value="19">S</option>
+          <option value="20">T</option>
+          <option value="21">U</option>
+          <option value="22">V</option>
+          <option value="23">W</option>
+          <option value="24">X</option>
+          <option value="25">Y</option>
+          <option value="26">Z</option>
+        </select><br><br>
+        <label for="payment">Payment mode:</label>
+        <select name="payment_method" id="payment">
+          <option disabled hidden selected>Select</option>
+          <option value="Card">Card</option>
+          <option value="Token">Token</option>
+        </select><br><br>
+        <button id="calculate">Click to get the price</button>
+        <p id="total"></p>
+        <p id="discount"></p>
+        <p id="final"></p>
+    </div>
+    <script src="dmrc.js"></script>
+  </body>
+</html>
